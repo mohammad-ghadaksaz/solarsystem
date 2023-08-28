@@ -1,0 +1,82 @@
+body {
+    background: #000;
+}
+.rotate {
+    -webkit-transform-origin: 250px 250px;
+    -moz-transform-origin: 250px 250px;
+    -ms-transform-origin: 250px 250px;
+    -o-transform-origin: 250px 250px;
+    transform-origin: 250px 250px;
+    animation: orbit 4s linear infinite;
+}
+circle {
+    fill: none;
+}
+.sun {
+    fill: yellow;
+}
+.neptune {
+    fill: #5f9ea0;
+    -webkit-animation-duration: 7s;
+    -moz-animation-duration: 7s;
+    -o-animation-duration: 7s;
+    animation-duration: 7s;
+}
+.uranus {
+    fill: #3f56ff;
+    -webkit-animation-duration: 9s;
+    -moz-animation-duration: 9s;
+    -o-animation-duration: 9s;
+    animation-duration: 9s;
+}
+.saturn {
+    fill: #f3cfa9;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+}
+.jupiter {
+    fill: #e89054;
+    -webkit-animation-duration: 8s;
+    -moz-animation-duration: 8s;
+    -o-animation-duration: 8s;
+    animation-duration: 8s;
+}
+.mars {
+    fill: #aa180a;
+    -webkit-animation-duration: 7s;
+    -moz-animation-duration: 7s;
+    -o-animation-duration: 7s;
+    animation-duration: 7s;
+}
+.earth {
+    fill: #58aa65;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+}
+.venus {
+    fill: #e66d18;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-duration: 6s;
+}
+.mergury {
+    fill: #fff;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-duration: 6s;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
